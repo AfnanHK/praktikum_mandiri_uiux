@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hasil Pemesanan Barang</title>
+  </head>
+  <body>
+    <p align="center">
+      <a href="prak2_kelompok_1_desainuiux_pemweb.html">Home</a> |
+      <a href="#">Register</a> | <a href="#">Policy</a> |
+      <a href="#">About</a>
+    </p>
+    <hr />
+
+    <form>
+      <table
+        border="0"
+        cellpadding="5"
+        cellspacing="0"
+        width="50%"
+        align="center"
+      >
+        <tr>
+          <!-- Kolom Kiri: Gambar -->
+          <td width="30%" valign="top" align="center">
+            <figure>
+              <img
+                src="assets/img/rog.png"
+                alt="ROG Strix Scar 18"
+                width="160"
+                height="160"
+                border="1"
+              />
+            </figure>
+          </td>
+
+          <!-- Kolom Kanan: Detail Pesanan -->
+          <td width="70%" valign="top">
+            <table border="0" cellpadding="4">
+              <tr>
+                <td>Title Here</td>
+                <td>: Asus ROG Strix Scar 18</td>
+              </tr>
+              <tr>
+                <td valign="top">Description</td>
+                <td>
+                  : Year : 2026<br />&nbsp; Model : ROG Strix Scar 18<br />&nbsp;
+                  Condition : New
+                </td>
+              </tr>
+              <tr>
+                <td>Total Amount</td>
+                <td>: £800</td>
+              </tr>
+              <tr>
+                <td>Pay to</td>
+                <td>: 123-456-789-0</td>
+              </tr>
+              <tr>
+                <td><label for="tipe">Payment Type</label></td>
+                <td>
+                  :
+                  <select id="tipe" name="tipe">
+                    <option value="visa debit" selected>Visa Debit</option>
+                    <option value="visa credit">Visa Credit</option>
+                    <option value="mastercard">MasterCard</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td><label for="pemilik">Account Holder</label></td>
+                <td>
+                  :
+                  <input
+                    type="text"
+                    id="pemilik"
+                    name="pemilik"
+                    placeholder="Afnan Hanif Khoiruddin"
+                    size="30"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td><label for="noakun">Account No</label></td>
+                <td>
+                  :
+                  <input
+                    type="text"
+                    id="noakun"
+                    name="noakun"
+                    value="123-456-789-0"
+                    size="30"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <input
+                    type="checkbox"
+                    id="kirim_hp"
+                    name="kirim_hp"
+                    checked
+                  />
+                  <label for="kirim_hp">Send to Mobile Phone</label><br />
+                  <input
+                    type="checkbox"
+                    id="kirim_email"
+                    name="kirim_email"
+                    checked
+                  />
+                  <label for="kirim_email">Email me copy of transaction</label>
+                </td>
+              </tr>
+              <tr>
+                <td><label for="hp">Send to Mobile Phone</label></td>
+                <td>
+                  :
+                  <input
+                    type="text"
+                    id="hp"
+                    name="hp"
+                    value="1234567890, 1234567891"
+                    size="30"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td><label for="email">Send to Email</label></td>
+                <td>
+                  :
+                  <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    value="mfmm2g13@soton.ac.uk, fys_06@yahoo.com"
+                    size="30"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" align="center">
+                  <br /><input type="submit" value="Pay using QuidLink" />
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </form>
+
+    <hr />
+
+    <footer>
+      <p align="center">
+        &copy; 2026 Afnan Hanif Khoiruddin - Desain UI/UX Pemrograman Web -
+        STT-NF<br />
+        Praktikum 2: HTML Form
+      </p>
+    </footer>
+  </body>
+</html>

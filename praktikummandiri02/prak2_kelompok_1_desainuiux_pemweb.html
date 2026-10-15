@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Praktikum 2 - Form Pemesanan Barang</title>
+  </head>
+
+  <body>
+    <!-- Navigasi Atas -->
+    <p align="center">
+      <a href="#">Home</a> |
+      <a href="prak2_kelompok_1_hasil.html">Generate Link</a> |
+      <a href="#">Transaction History</a> |
+      <a href="#">Policy</a>
+      <a href="#">Logout</a>
+    </p>
+    <hr />
+
+    <form action="prak2_kelompok_1_hasil.html" method="POST">
+      <table
+        border="0"
+        cellpadding="5"
+        cellspacing="0"
+        width="50%"
+        align="center"
+      >
+        <tr>
+          <!-- Kolom Kiri: Hanya Menampilkan Gambar dengan Tag <img> -->
+          <td width="30%" valign="top" align="center">
+            <figure>
+              <img
+                src="assets/img/rog.png"
+                alt="ROG Strix Scar 18"
+                width="160"
+                height="160"
+                border="1"
+              />
+            </figure>
+          </td>
+
+          <!-- Kolom Kanan: Detail Input Form -->
+          <td width="70%" valign="top">
+            <table border="0" cellpadding="4">
+              <tr>
+                <td><label for="title">Title Here</label></td>
+                <td>
+                  :
+                  <input
+                    type="text"
+                    id="title"
+                    name="title"
+                    value="Asus ROG Strix Scar 18"
+                    size="30"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td valign="top">
+                  <label for="description">Description</label>
+                </td>
+                <td>
+                  :
+                  <textarea
+                    id="description"
+                    name="description"
+                    rows="4"
+                    cols="30"
+                  >
+Year: 2026  
+Model: ROG Strix Scar 18
+Condition: New</textarea
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td><label for="account_number">Account Number</label></td>
+                <td>
+                  :
+                  <input
+                    type="text"
+                    id="account_number"
+                    name="account_number"
+                    value="123-456-789-0"
+                    size="30"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td><label for="bank">Bank</label></td>
+                <td>
+                  :
+                  <select id="bank" name="bank">
+                    <option value="HSBC" selected>HSBC</option>
+                    <option value="BCA">BCA</option>
+                    <option value="Mandiri">Mandiri</option>
+                    <option value="BNI">BNI</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td><label for="account_holder">Account Holder</label></td>
+                <td>
+                  :
+                  <input
+                    type="text"
+                    id="account_holder"
+                    name="account_holder"
+                    value="Afnan Hanif Khoiruddin"
+                    size="30"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td><label for="transaction">Transaction</label></td>
+                <td>
+                  :
+                  <select id="transaction" name="transaction">
+                    <option value="1" selected>1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <small
+                    >* if the transaction is for 3 person, choose 3 from the
+                    drop-down list</small
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <input
+                    type="checkbox"
+                    id="chk_mobile"
+                    name="send_mobile"
+                    checked
+                  />
+                  <label for="chk_mobile">Send to Mobile Phone</label>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <input
+                    type="checkbox"
+                    id="chk_email"
+                    name="send_email"
+                    checked
+                  />
+                  <label for="chk_email">Send to Email</label>
+                </td>
+              </tr>
+              <tr>
+                <td><label for="mobile_phone">Send to Mobile Phone</label></td>
+                <td>
+                  :
+                  <input
+                    type="text"
+                    id="mobile_phone"
+                    name="mobile_phone"
+                    value="1234567890, 1234567891"
+                    size="30"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td><label for="email">Send to Email</label></td>
+                <td>
+                  :
+                  <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    value="mhmmd213@aston.ac.uk, fyx_06@yahoo.com"
+                    size="30"
+                  />
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center">
+            <br />
+            <input type="submit" value="Generate Pay Link" />
+          </td>
+        </tr>
+      </table>
+    </form>
+    <hr />
+
+    <footer>
+      <p align="center">
+        &copy; 2026 Afnan Hanif Khoiruddin - Desain UI/UX Pemrograman Web -
+        STT-NF<br />
+        Praktikum 2: HTML Form
+      </p>
+    </footer>
+  </body>
+</html>
