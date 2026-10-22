@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Praktikum 3 - Web Profile Layout</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="profile-header">
+        <div class="profile-avatar">
+          <img src="assets/img/profile.png" alt="Profile Picture" />
+        </div>
+        <div class="profile-details">
+          <h1>Afnan</h1>
+          <p><strong>Alamat:</strong> Jl. Rtm Gg. Mitan No. 169 Kelapa Dua</p>
+          <p><strong>Kota:</strong> Depok, Jawa Barat</p>
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:afnan@example.com">afnankhoiruddin@gmail.com</a>
+          </p>
+          <p><strong>Telepon:</strong> 0877-8220-6727</p>
+        </div>
+        <div class="categories-widget">
+          <h3>Categories</h3>
+          <ul>
+            <li><a href="#about">Tentang Saya</a></li>
+            <li><a href="#video">Multimedia (Video)</a></li>
+            <li><a href="#gallery">Galeri Foto</a></li>
+            <li><a href="#attachments">Attachments</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <main class="main-content">
+        <article id="about" class="bio-article">
+          <h2>Profil Singkat</h2>
+          <p>
+            Halo! Saya Afnan, mahasiswa Teknik Informatika di STT Terpadu Nurul
+            Fikri. Saat ini saya punya ketertarikan besar di bidang web
+            development, perancangan antarmuka (UI/UX), serta eksplorasi sistem
+            operasi Linux Ubuntu dan pengolahan Virtual Private Server (VPS). Di
+            waktu luang, saya suka ngulik dan ngebangun berbagai proyek website,
+            salah satunya website portofolio.
+          </p>
+        </article>
+
+        <section class="bottom-sections">
+          <div class="box video-box" id="video">
+            <h3>Video Multimedia</h3>
+            <div class="video-container">
+              <video controls width="100%">
+                <source src="assets/video/video.mp4" type="video/mp4" />
+                Browser Anda tidak mendukung tag video.
+              </video>
+            </div>
+          </div>
+
+          <div class="box gallery-box" id="gallery">
+            <h3>Photo Collection</h3>
+            <div class="gallery-grid">
+              <div class="gallery-item">
+                <img src="assets/img/foto1.jpeg" alt="Foto 1" />
+              </div>
+              <div class="gallery-item">
+                <img src="assets/img/foto2.jpeg" alt="Foto 2" />
+              </div>
+              <div class="gallery-item">
+                <img src="assets/img/foto3.png" alt="Foto 3" />
+              </div>
+              <div class="gallery-item">
+                <img src="assets/img/foto4.jpeg" alt="Foto 4" />
+              </div>
+            </div>
+          </div>
+
+          <div class="box attachments-box" id="attachments">
+            <h3>Attachments</h3>
+            <ul class="attachment-list">
+              <li>
+                <i class="fa-brands fa-github" style="color: #0f172a"></i>
+                <a href="https://github.com/AfnanHK" target="_blank">Github</a>
+              </li>
+              <li>
+                <i class="fa-brands fa-github" style="color: #0f172a"></i>
+                <a
+                  href="https://github.com/AfnanHK/praktikum_mandiri_uiux"
+                  target="_blank"
+                  >Repository Praktikum Mandiri</a
+                >
+              </li>
+              <li>
+                <i class="fa-brands fa-github" style="color: #0f172a"></i>
+                <a
+                  href="https://github.com/AfnanHK/praktikum_uiux"
+                  target="_blank"
+                  >Repository Praktikum di Kelas</a
+                >
+              </li>
+              <li>
+                <i class="fa-brands fa-instagram" style="color: #db2777"></i>
+                <a href="http://instagram.com/afnanhk15" target="_blank"
+                  >Instagram</a
+                >
+              </li>
+              <li></li>
+              <li>
+                <i class="fa-solid fa-network-wired" style="color: #0284c7"></i>
+                <a href="assets/file/mtcna.pdf" target="_blank"
+                  >Sertifikat MTCNA</a
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <p>&copy; 2026 Afnan - STT Terpadu Nurul Fikri .</p>
+      </footer>
+    </div>
+  </body>
+</html>
