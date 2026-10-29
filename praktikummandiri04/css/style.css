@@ -1,0 +1,192 @@
+body {
+  background-color: #f9f3db;
+  font-family: Arial, sans-serif;
+  color: #333;
+  max-width: auto;
+  margin: 0;
+  padding: 20px;
+}
+
+#header {
+  background-color: #deb887;
+  padding: 20px;
+  text-align: center;
+}
+
+#header h1 {
+  color: #0000ff;
+  font-size: 24px;
+  margin-top: 0;
+}
+
+#header blockquote {
+  background-color: #ffd700;
+  margin: 10px auto 0;
+  padding: 10px;
+  width: 80%;
+  font-size: 14px;
+  color: #000;
+}
+
+#soekarno {
+  display: block;
+  margin-top: 10px;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  margin: 20px 0;
+}
+
+ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+ul li a {
+  color: #0000ff;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+.gambar {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.gambar img {
+  width: 200px;
+  height: auto;
+  margin: 0 5px;
+}
+
+.isi {
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.isi p:first-of-type::first-letter {
+  font-size: 50px;
+  color: #0000ff;
+  float: left;
+  margin-right: 8px;
+  margin-top: -5px;
+  line-height: 1;
+}
+
+h3 {
+  margin-top: 30px;
+}
+
+#profil ul {
+  list-style-type: disc;
+  text-align: justify;
+  padding-left: 20px;
+}
+
+#profil ul li {
+  display: list-item;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+#beternak {
+  margin-top: 30px;
+}
+
+#beternak ol {
+  padding-left: 20px;
+}
+
+#beternak ol li {
+  margin-bottom: 15px;
+}
+
+#beternak h4 {
+  margin: 0 0 5px 0;
+  color: #0000ff;
+}
+
+#beternak p {
+  margin: 0;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.koleksi {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.koleksi img {
+  width: 170px;
+  height: 130px;
+  object-fit: cover;
+  margin: 5px;
+  border: 3px solid #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.promo {
+  background-color: #ffffcc;
+  border: 2px dashed #ff9900;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.promo h2 {
+  color: #cc0000;
+  margin-top: 0;
+  font-size: 22px;
+}
+
+.promo del {
+  color: #888;
+}
+
+.promo strong {
+  color: #008000;
+  font-size: 26px;
+}
+
+#Wa {
+  background-color: #25d366;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.promo ol {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.promo ol li {
+  display: inline-block;
+  margin: 5px 10px;
+}
+
+.promo ol li a {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.promo ol li a:hover {
+  background-color: #f0f0f0;
+}
