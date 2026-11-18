@@ -6,7 +6,6 @@ body {
   margin: 0;
 }
 
-/* Dua baris disusun atas-bawah */
 .gallery {
   display: flex;
   flex-direction: column;
@@ -14,13 +13,11 @@ body {
   padding: 20px;
 }
 
-/* Isi tiap baris disusun kiri-kanan */
 .row {
   display: flex;
   gap: 10px;
 }
 
-/* flex: 1 membuat semua kotak dalam satu baris sama lebar */
 .foto {
   flex: 1;
   height: 150px;

@@ -10,7 +10,6 @@ body {
   color: white;
 }
 
-/* Bingkai luar berwarna pink, memenuhi layar */
 .container {
   display: flex;
   flex-direction: column;
@@ -20,7 +19,6 @@ body {
   background-color: #ffabab;
 }
 
-/* Header dan footer: tinggi tetap, teks di tengah */
 header,
 footer {
   display: flex;
@@ -30,7 +28,6 @@ footer {
   background-color: #98d1c5;
 }
 
-/* Baris tengah mengisi sisa tinggi, isinya aside + article */
 .main {
   display: flex;
   flex: 1;
@@ -52,7 +49,6 @@ article {
   background-color: #fb7b7d;
 }
 
-/* Tulisan "Article" di tengah area atas article */
 article h3 {
   display: flex;
   align-items: center;
@@ -62,7 +58,6 @@ article h3 {
   font-size: 22px;
 }
 
-/* Tiga gambar sejajar di bagian bawah article */
 .images {
   display: flex;
   gap: 20px;
