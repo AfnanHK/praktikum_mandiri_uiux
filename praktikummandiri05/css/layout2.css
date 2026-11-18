@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+}
+
+/* Bingkai luar berwarna pink, memenuhi layar */
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  padding: 20px;
+  background-color: #ffabab;
+}
+
+/* Header dan footer: tinggi tetap, teks di tengah */
+header,
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  background-color: #98d1c5;
+}
+
+/* Baris tengah mengisi sisa tinggi, isinya aside + article */
+.main {
+  display: flex;
+  flex: 1;
+  gap: 30px;
+}
+
+aside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  background-color: #62b5b3;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  flex: 2.4;
+  background-color: #fb7b7d;
+}
+
+/* Tulisan "Article" di tengah area atas article */
+article h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  margin: 0;
+  font-size: 22px;
+}
+
+/* Tiga gambar sejajar di bagian bawah article */
+.images {
+  display: flex;
+  gap: 20px;
+  padding: 0 20px 15px;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  height: 120px;
+  background-color: #d3d3d3;
+}
