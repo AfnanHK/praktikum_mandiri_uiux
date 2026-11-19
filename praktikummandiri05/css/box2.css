@@ -22,7 +22,7 @@ body {
 }
 
 .box2,
-.box4 {
+.box4 { 
   width: calc(20% - 20px);
   height: 32vh;
   background-color: #f7ea48;
